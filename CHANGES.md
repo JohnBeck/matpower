@@ -12,7 +12,11 @@ For change history for [MOST][3], see [most/CHANGES.md](most/CHANGES.md).
 Since last release
 ------------------
 
-#### 8/8/17
+#### 8/?/17
+  - Expand support for soft branch flow limits in `toggle_softlims` to
+    include AC OPF problems as well as DC OPF.
+
+#### 8/14/17
   - Remove `nln` (nonlinear constraints) field from `opt_model` object,
     in favor of `nle` (nonlinear equalities) and `nli` (nonlinear
     inequalities).
