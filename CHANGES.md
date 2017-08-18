@@ -12,9 +12,13 @@ For change history for [MOST][3], see [most/CHANGES.md](most/CHANGES.md).
 Since last release
 ------------------
 
-#### 8/?/17
+#### 8/18/17
   - Expand support for soft branch flow limits in `toggle_softlims` to
     include AC OPF problems as well as DC OPF.
+  - Add support for direct specification of user-defined nonlinear
+    constraints for AC OPF, in mpc.nle_constraints and
+    mpc.nli_constraints, for equality and inequality constraints,
+    respectively.
 
 #### 8/14/17
   - Remove `nln` (nonlinear constraints) field from `opt_model` object,
